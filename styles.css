@@ -26,3 +26,18 @@ body {
     font-size: 6em;
     text-align: center;
 }
+
+.message{
+    margin: auto;
+    margin-top: 1em;
+    font-size: 1em;
+    color: orange;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.match{
+    background-color: blue;
+    color: white;
+}
