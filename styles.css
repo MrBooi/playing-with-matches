@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+.number-box {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border: 4px solid lightblue; 
+    color: crimson;
+    font-weight: bold;
+    font-size: 6em;
+    text-align: center;
+}
