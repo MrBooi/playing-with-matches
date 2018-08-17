@@ -9,20 +9,14 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <center><h1>Show me your number</h1></center>
-        <div class="number-box">
-            7
-        </div>
+    <div class="container clearfix">
+        <center>
+            <h1>Show me your number</h1>
+        </center>
+        
     </div>
 
-<script>
-    function showRandomNumber() {
-        return Math.floor( 1 + Math.random() * 9);
-    }
-    document.querySelector('.number-box')
-        .innerHTML = showRandomNumber();
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
